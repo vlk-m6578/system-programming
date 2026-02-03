@@ -1,0 +1,355 @@
+<Packages>
+    <ApplicationName>Qt</ApplicationName>
+    <ApplicationVersion>1.0.0</ApplicationVersion>
+    <Package>
+        <Name>qt</Name>
+        <Title>Qt</Title>
+        <Description>Qt</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.19</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+    </Package>
+    <Package>
+        <Name>qt.license.acceptance</Name>
+        <Title>Qt Frame Agreement acceptance</Title>
+        <Description>Additional License Agreement text and accept</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.gplv3except</Name>
+        <Title>License GPL3-EXCEPT</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0-2</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.acceptance</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.lgpl</Name>
+        <Title>Qt License LGPL</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.2-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.acceptance</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.license.thirdparty</Name>
+        <Title>Qt 3rd Party Licenses</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0-1</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>23056</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680</Name>
+        <Title>Qt 6.8.0</Title>
+        <Description>Qt 6.8.0 &lt;br>&lt;br>2024-10-03&lt;br>&lt;br> sha1: 0c20a491c1fbf6439d81c073eaff268ed4bf2c32</Description>
+        <SortingPriority>60800</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>2334</Size>
+        <Dependencies>qt.qt6.680.doc,qt.qt6.680.examples,qt.tools.qtcreator,qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.addons</Name>
+        <Title>Additional Libraries</Title>
+        <Description>Additional Libraries for Qt 6.8.0.&lt;br>&lt;br>Most of the additional libraries are available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <SortingPriority>3</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.addons.qtcharts</Name>
+        <Title>Qt Charts</Title>
+        <Description>The Qt Charts API lets you easily create interactive and dynamic 2D charts using C++ and/or Qt Quick.&lt;br>&lt;br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.680.doc.qtcharts,qt.qt6.680.examples.qtcharts</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.addons.qtcharts.linux_gcc_64</Name>
+        <Title>Qt Charts for Linux 64</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>4829780</Size>
+        <Dependencies>qt.qt6.680.linux_gcc_64</Dependencies>
+        <AutoDependOn>qt.qt6.680.addons.qtcharts,qt.qt6.680.linux_gcc_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.addons.qtmultimedia</Name>
+        <Title>Qt Multimedia</Title>
+        <Description>Qt Multimedia provides a rich set of QML types and C++ classes to handle multimedia content.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.qt6.680.doc.qtmultimedia,qt.qt6.680.examples.qtmultimedia</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.addons.qtmultimedia.linux_gcc_64</Name>
+        <Title>Qt Multimedia for Linux 64</Title>
+        <Description></Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>192583495</Size>
+        <Dependencies>qt.qt6.680.linux_gcc_64</Dependencies>
+        <AutoDependOn>qt.qt6.680.addons.qtmultimedia,qt.qt6.680.linux_gcc_64</AutoDependOn>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.doc</Name>
+        <Title>Qt 6.8.0 Documentation</Title>
+        <Description>Qt 6.8.0 documentation</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>220714357</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.doc.qtcharts</Name>
+        <Title>Documentation for Qt 6.8.0 GPLv3 components (QtCharts)</Title>
+        <Description>Documentation for Qt 6.8.0 GPLv3 components (QtCharts)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>14843646</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.doc.qtmultimedia</Name>
+        <Title>Documentation for Qt Multimedia</Title>
+        <Description>Documentation for Qt Multimedia</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>9899542</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.examples</Name>
+        <Title>Qt 6.8.0 Examples</Title>
+        <Description>Qt 6.8.0 Examples</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>79059791</Size>
+        <Dependencies>qt.tools</Dependencies>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.examples.qtcharts</Name>
+        <Title>Examples for Qt 6.8.0 GPLv3 components (QtCharts)</Title>
+        <Description>Examples for Qt 6.8.0 GPLv3 components (QtCharts)</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>531436</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.examples.qtmultimedia</Name>
+        <Title>Examples for Qt Multimedia</Title>
+        <Description>Examples for Qt Multimedia</Description>
+        <SortingPriority>1</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>2531337</Size>
+        <Virtual>true</Virtual>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.qt6.680.linux_gcc_64</Name>
+        <Title>Desktop</Title>
+        <Description>Qt 6.8.0 Prebuilt Components for Desktop 64</Description>
+        <SortingPriority>700</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>6.8.0-0-202410030750</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>1559868512</Size>
+        <Dependencies>qt.tools.qtcreator,qt.qt6.680.doc,qt.qt6.680.examples</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools</Name>
+        <Title>Developer and Designer Tools</Title>
+        <Description>IDE, Internationalization, Design and other tools to accelerate development.</Description>
+        <SortingPriority>40</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.2.2-0-202405230632</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+        <Dependencies>qt.license.thirdparty,qt.license.lgpl</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.cmake</Name>
+        <Title>CMake 3.29.3</Title>
+        <Description>CMake tools 3.29.3</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>3.29.3-202405151154</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>152067448</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.maintenance</Name>
+        <Title>Qt Maintenance Tool</Title>
+        <Description>The tool to maintain and update the existing installation, located in the root directory of the installation.</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>4.8.1-202409230636</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>54224656</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+    </Package>
+    <Package>
+        <Name>qt.tools.ninja</Name>
+        <Title>Ninja 1.12.0</Title>
+        <Description>Ninja 1.12.0</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.12.0-202405151040</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>277904</Size>
+        <Dependencies>qt.tools.qtcreator</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator</Name>
+        <Title>SDKTool</Title>
+        <Description>SDKTool</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>14.0.2-0-202409270342</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>4265856</Size>
+        <ForcedInstallation>true</ForcedInstallation>
+        <Virtual>true</Virtual>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtcreator_gui</Name>
+        <Title>Qt Creator 14.0.2</Title>
+        <Description>IDE for Qt application development</Description>
+        <SortingPriority>1000</SortingPriority>
+        <TreeName moveChildren="true">qtcreator.release_node</TreeName>
+        <Version>14.0.2-0-202409270455</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>566038252</Size>
+        <Dependencies>qt.tools.qtcreator->=9.0.1</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qt.tools.qtdesignstudio</Name>
+        <Title>Qt Design Studio 4.6.2</Title>
+        <Description>Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.</Description>
+        <SortingPriority>100</SortingPriority>
+        <TreeName moveChildren="true">qtdesignstudio.release</TreeName>
+        <Version>4.6.2-0-202411010923</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>1378840072</Size>
+        <Dependencies>qt.license.gplv3except</Dependencies>
+        <Checkable>true</Checkable>
+    </Package>
+    <Package>
+        <Name>qtcreator</Name>
+        <Title>Qt Creator</Title>
+        <Description>IDE for Qt application development</Description>
+        <SortingPriority>0</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+    </Package>
+    <Package>
+        <Name>qtdesignstudio</Name>
+        <Title>Qt Design Studio</Title>
+        <Description>Qt Design Studio</Description>
+        <SortingPriority>70</SortingPriority>
+        <TreeName moveChildren="false"></TreeName>
+        <Version>1.0.0-0</Version>
+        <LastUpdateDate></LastUpdateDate>
+        <InstallDate>2024-11-28</InstallDate>
+        <Size>0</Size>
+    </Package>
+</Packages>
